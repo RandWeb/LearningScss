@@ -1,3 +1,7 @@
+.footer h3 {
+  font-style: italic;
+  border: .3rem solid red; }
+
 html {
   font-size: 62.5%; }
 
