@@ -1,0 +1,26 @@
+.footer h3 {
+  font-style: italic;
+  border: .3rem solid red; }
+
+html {
+  font-size: 62.5%; }
+
+.nav {
+  background-color: #ffc966; }
+  .nav ul li {
+    list-style: none; }
+  .nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: gray; }
+    .nav a:hover {
+      color: royalblue; }
+
+.banner h1, .footer h3 {
+  color: orange;
+  font-size: 4rem;
+  background-color: gray;
+  text-align: center; }
+
+.banner h1:hover {
+  background-color: green; }
