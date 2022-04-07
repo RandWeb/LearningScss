@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%; }
+
+.nav {
+  background-color: orange; }
+
+.banner h1 {
+  /* $color-secondary:red;*/
+  font-size: 4rem;
+  color: green;
+  text-align: center; }
+
+.footer h3 {
+  font-size: 3rem;
+  color: green;
+  text-align: center; }
