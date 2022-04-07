@@ -3,6 +3,14 @@ html {
 
 .nav {
   background-color: orange; }
+  .nav ul li {
+    list-style: none; }
+  .nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: gray; }
+    .nav a:hover {
+      color: royalblue; }
 
 .banner h1 {
   /* $color-secondary:red;*/
