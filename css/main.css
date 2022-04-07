@@ -1,24 +1,42 @@
 html {
-  font-size: 62.5%; }
+    font-size: 62.5%;
+}
 
 .nav {
-  background-color: orange; }
-  .nav ul li {
-    list-style: none; }
-  .nav a {
+    background-color: orange;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav a {
     text-decoration: none;
     font-size: 2rem;
-    color: gray; }
-    .nav a:hover {
-      color: royalblue; }
+    color: gray;
+}
+
+.nav a:hover {
+    color: royalblue;
+}
 
 .banner h1 {
-  /* $color-secondary:red;*/
-  font-size: 4rem;
-  color: green;
-  text-align: center; }
+    font-size: 5rem;
+    text-align: center;
+    color: gray;
+}
 
 .footer h3 {
-  font-size: 3rem;
-  color: green;
-  text-align: center; }
+    font-size: 3rem;
+    text-align: center;
+    color: gray;
+    -moz-transition: color 0.5s, background-color 1s;
+    -o-transition: color 0.5s, background-color 1s;
+    -webkit-transition: color 0.5s, background-color 1s;
+    transition: color 0.5s, background-color 1s;
+}
+
+.footer h3:hover {
+    color: royalblue;
+    background-color: orange;
+}

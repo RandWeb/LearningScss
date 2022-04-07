@@ -23,22 +23,38 @@ html {
         text-decoration: none;
         font-size: $font-sm;
         color: $color-secondary;
-    &:hover{
-        color: $color-tertiary;
+
+        &:hover {
+            color: $color-tertiary;
+        }
     }
-    }
+}
+
+@mixin headingStyles($fontSize: 5rem) {
+    font-size: $fontSize;
+    text-align: center;
+    color: $color-secondary;
+}
+
+@mixin transtion($params...) {
+    -moz-transition: $params;
+    -o-transition: $params;
+    -webkit-transition: $params;
+    transition: $params;
 }
 
 .banner h1 {
-    /* $color-secondary:red;*/
-    $color-secondary: green !global;
-    font-size: $font-lg;
-    color: $color-secondary;
-    text-align: center;
+    @include headingStyles();
 }
 
 .footer h3 {
-    font-size: $font-md;
-    color: $color-secondary;
-    text-align: center;
+    @include headingStyles($font-md);
+    @include transtion(
+        color .5s,
+      background-color 1s);
+
+    &:hover {
+        color: $color-tertiary;
+        background-color: $color-primary;
+    }
 }
