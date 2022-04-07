@@ -30,31 +30,20 @@ html {
     }
 }
 
-@mixin headingStyles($fontSize: 5rem) {
-    font-size: $fontSize;
+.heading {
+    color: $color-primary;
+    font-size: $font-lg;
+    background-color: $color-secondary;
     text-align: center;
-    color: $color-secondary;
-}
-
-@mixin transtion($params...) {
-    -moz-transition: $params;
-    -o-transition: $params;
-    -webkit-transition: $params;
-    transition: $params;
 }
 
 .banner h1 {
-    @include headingStyles();
+    @extend .heading;
+    &:hover {
+        background-color: green;
+    }
 }
 
 .footer h3 {
-    @include headingStyles($font-md);
-    @include transtion(
-        color .5s,
-      background-color 1s);
-
-    &:hover {
-        color: $color-tertiary;
-        background-color: $color-primary;
-    }
+    @extend .heading
 }

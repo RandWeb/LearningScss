@@ -20,23 +20,13 @@ html {
     color: royalblue;
 }
 
-.banner h1 {
-    font-size: 5rem;
+.heading, .banner h1, .footer h3 {
+    color: orange;
+    font-size: 4rem;
+    background-color: gray;
     text-align: center;
-    color: gray;
 }
 
-.footer h3 {
-    font-size: 3rem;
-    text-align: center;
-    color: gray;
-    -moz-transition: color 0.5s, background-color 1s;
-    -o-transition: color 0.5s, background-color 1s;
-    -webkit-transition: color 0.5s, background-color 1s;
-    transition: color 0.5s, background-color 1s;
-}
-
-.footer h3:hover {
-    color: royalblue;
-    background-color: orange;
+.banner h1:hover {
+    background-color: green;
 }
