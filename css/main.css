@@ -12,7 +12,7 @@ html {
     .nav a:hover {
       color: royalblue; }
 
-.heading, .banner h1, .footer h3 {
+.banner h1, .footer h3 {
   color: orange;
   font-size: 4rem;
   background-color: gray;
@@ -20,9 +20,3 @@ html {
 
 .banner h1:hover {
   background-color: green; }
-
-.banner p {
-  font-size: 4rem; }
-
-.footer p {
-  font-size: 6rem; }
